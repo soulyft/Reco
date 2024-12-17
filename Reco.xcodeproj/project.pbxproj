@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		134EA0FD2D10D26D00D0753A /* .gitignore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134EA0FC2D10D26D00D0753A /* .gitignore.xib */; };
 		13B7F2CD2D120C17009F628B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 13B7F2CC2D120C17009F628B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		134EA0D82D10CC8100D0753A /* Reco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reco.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		134EA0FC2D10D26D00D0753A /* .gitignore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .gitignore.xib; sourceTree = "<group>"; };
 		13B7F2CC2D120C17009F628B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				13B7F2CC2D120C17009F628B /* README.md */,
-				134EA0FC2D10D26D00D0753A /* .gitignore.xib */,
 				134EA0DA2D10CC8100D0753A /* Reco */,
 				134EA0D92D10CC8100D0753A /* Products */,
 			);
@@ -119,7 +116,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B7F2CD2D120C17009F628B /* README.md in Resources */,
-				134EA0FD2D10D26D00D0753A /* .gitignore.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
