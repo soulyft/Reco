@@ -58,21 +58,8 @@ Add a Secrets.plist file with your OpenAI API Key:
 </plist>  
 Rename the provided Secrets.plist.example file if needed for your project.
 Run the project in Xcode.
-File Structure
 
-Models/
-UserProfile.swift: Manages user preferences.
-Recommendation.swift: Defines product recommendation data.
-Views/
-UserProfileView.swift: Editable user profile page.
-RecoView.swift: Main recommendation input and result view.
-HistoryView.swift: Displays and manages recommendation history.
-ProductCard.swift: Modular product display component.
-Networking/
-APIClient.swift: Handles API requests and response decoding.
-Main Files
-MainViewModel.swift: Centralized logic for data handling and API interactions.
-RecoApp.swift: Entry point for the application.
+
 What to Look For
 
 Clean SwiftUI Composition: Modular and reusable components (ProductCard, UserProfileView).
@@ -81,8 +68,7 @@ API Handling: Robust error handling and clean request/response structures.
 UI/UX Details: Animated transitions, responsive layouts, gradients, and user-friendly navigation.
 Notes for Reviewers
 
-This project is designed to meet Fueled Talent's criteria for code examples:
-
+This project is designed to meet criteria for code examples:
 UI Composition: SwiftUI-based layouts and animations.
 Data Persistence: SwiftData implementation for profiles and recommendation history.
 Networking: OpenAI API integration with clean and decodable JSON responses.
